@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+
+* {
+  margin: auto;
+  text-align: center;
+  background-color: #cc0700;
+  background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+ 
+
+}
+
+.display {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-right: 40px;
+}
+
+.display__element {
+  width: 250px;
+  padding: 16px;
+  background-color: #cc8800;
+  background-size: cover;
+  margin: 8px;
+  margin-bottom: 16px;
+  border-radius: 20px;
+  
+}
+
+
+
+li {
+  list-style-type: none;
+}
+
+h2 {
+  color: rgb(143, 128, 128);
+  text-transform: uppercase;
+  font-size: 19px;
+  padding: 7px;
+  border-radius: 5px;
+  background-color: #18007a;
+  
+
+  
+}
+
+p {
+  padding: 4px;
+  color: whitesmoke;
+  font-size: 20px;
+  border-radius: 5px;
+  background: #cc8800;
+
+}
+
+h1 {
+  text-transform: uppercase;
+  color: rgb(228, 181, 26);
+  font-size: 50px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.ash-ketchup {
+  width: 20%;
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: #0a001f;
+  width: 100%;
+  border-radius: 10px;
+}
+
+
+
+
