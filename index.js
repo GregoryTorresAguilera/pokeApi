@@ -25,20 +25,23 @@ const ListaPokemons = (allPokes) => {
   const crearHTML = allPokes
     .map(
       (pokemon) =>
-        `<li class="display__element">
+        `<div class="display__element">
           <h2>${pokemon.name}</h2>
           <img class="card" src="${pokemon.image}" alt="${
           pokemon.name
         }"/>
-          <p>NÚMERO #${pokemon.id}</p>
-          <p>PESO: ${pokemon.weight / 10} KG </p>
-          <p>ALTURA: ${pokemon.height / 10} M </p>
-          </li>`
+          <p>Nº ${pokemon.id}</p>
+          <p>PESO: ${pokemon.weight * 10} Gramos </p>
+          <p>ALTURA: ${pokemon.height * 10} Cm </p>
+          </div>`
     )
   div$$.innerHTML = crearHTML;
 };
 
 pintarPokemons();
 
-
+//agradecimientos:
+//https://github.com/accesibleprogramacion/pokedex
+//Santiago por la web https://www.transparenttextures.com/
+//A todos en general 
 
